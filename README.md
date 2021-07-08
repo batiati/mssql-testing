@@ -16,14 +16,14 @@ Features
     ```JSON
     [
         {
-            'dbName': 'MaxDb',
-            'dbFiles': ['/volume/maxtest/maxtest.mdf',
-            '/volume/maxtest/maxtest_log.ldf']
+            "dbName": "MaxDb",
+            "dbFiles": ["/volume/maxtest/maxtest.mdf",
+            "/volume/maxtest/maxtest_log.ldf"]
         },
         {
-            'dbName': 'PerryDb',
-            'dbFiles': ['/volume/perrytest/perrytest.mdf',
-            '/volume/perrytest/perrytest_log.ldf']
+            "dbName": "PerryDb",
+            "dbFiles": ["/volume/perrytest/perrytest.mdf",
+            "/volume/perrytest/perrytest_log.ldf"]
         }
     ]
     ```
@@ -65,7 +65,7 @@ docker run -d \
 -e AUTO_CLOSE=ON \
 -e MAX_MEMORY=1024
 -e RUN_AS_DATE="2019-11-25"
-mssql-testing
+batiati/mssql-testing
 ```
 
 ## Building
