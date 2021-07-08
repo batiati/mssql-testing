@@ -44,4 +44,8 @@ ENV ACCEPT_EULA="" \
     RUN_AS_DATE="_" \
     PATH="/opt/mssql-tools/bin:${PATH}"
 	
-ENTRYPOINT ["/entrypoint.sh"]
+# Since sqlsrv isn't the entrypoint anymore, needs tini to propagate term signals
+# Please visit https://github.com/krallin/tini for more info
+ADD https://github.com/krallin/tini/releases/download/v0.19.0/tini /tini
+RUN chmod +x /tini
+ENTRYPOINT ["/tini", "/entrypoint.sh"]
