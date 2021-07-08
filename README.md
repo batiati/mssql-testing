@@ -4,7 +4,7 @@
 
 ## 1. Motivation
 
-Microsoft SQL Server Docker's image is such a great way to deploy databases for development and testing purposes, although the official image is strongly focused on production deployment, making testing scenarios harder than it should be.
+Microsoft SQL Server Docker's image is such a great way to deploy databases for development and testing purposes, however, the official image is strongly focused on production deployment, making testing and local deployments harder than it should be.
 
 This project adds some helpful features on top of the official image, making life easier for those whom just need the to start an existing database.
 
