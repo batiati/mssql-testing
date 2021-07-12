@@ -60,6 +60,8 @@ This project adds some helpful features on top of the official image, making lif
 
     Very useful to test business logic that are time-dependant.
     Please refer to [Lib dateoffset](https://github.com/batiati/dateoffset) for more details.
+    
+    ![image](https://user-images.githubusercontent.com/5728002/125292448-dba93b80-e2f8-11eb-8414-8a13c5138ea9.png)    
 
 ## 3. Usage:
 
