@@ -2,6 +2,8 @@
 
 ### Microsoft SQL Server Docker image with some convenience tools for software testing
 
+![docker pulls](https://img.shields.io/docker/pulls/batiati/mssql-testing.svg)
+
 ## 1. Motivation
 
 Microsoft SQL Server Docker's image is such a great way to deploy databases for development and testing purposes, however, the official image is strongly focused on production deployment, making testing and local deployments harder than it should be.
