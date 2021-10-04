@@ -89,6 +89,7 @@ docker run -d \
 -e AUTO_CLOSE=ON \
 -e MAX_MEMORY=1024
 -e RUN_AS_DATE="2019-11-25"
+-e TZ=America/Sao_Paulo
 batiati/mssql-testing
 ```
 
